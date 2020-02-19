@@ -40,29 +40,33 @@
             margin-top: 42px;
             z-index: 1;
         }
-        .shop_cart {
-            width: 20px;
-            height: 20px;
-            background-color: #ff7e57;
+        .transition2 {
+            color: #898989;
+            transition: 0.3s;
+            margin-left: 892px;
+        }
+        .transition2:hover {
+            color: #FF7E57;
+            cursor: pointer;
         }
     </style>
 </head>
 <body style="display: flex; justify-content: center; align-items: center;" background="https://www.furniture.kg/templates/gk_storebox/images/bg_desktop.jpg">
  <div class="mainWindow">
-    <div style="flex-direction: row; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+    <div style="height: 97px; flex-direction: row; justify-content: flex-start; align-items: flex-start; display: inline-flex">
         <h1 style="margin-left: 50px; margin-top: 42px; cursor: pointer;">
             <img src="https://www.furniture.kg/templates/gk_storebox/images/logo.png">
         </h1>
         <div style="border: solid; width: 347px; height: 32px; border-width: 1px; display: inline-flex; margin-top: 65px; margin-left: 105px; border-radius: 4px; border-color: #E5E5E5">
            <div style=" width: 350px; height: 34px; display: inline-flex; border-radius: 10px; opacity: 40%; margin-bottom: 2px">
-              <input name="searcher" type="text" maxlength="27" size="40"
+              <input name="searcher" maxlength="27" size="47" style="font-size: 12px; font-family: sans-serif;"
                    onblur="if(this.value=='') this.value='Поиск по магазину';"
                    onfocus="if(this.value=='Поиск по магазину') this.value='';"/>
            </div>
             <img  src="https://www.furniture.kg/templates/gk_storebox/images/style1/search_bg.png">
         </div>
           <div style="display: inline-flex; font-size: 23px; margin-top: 64px; margin-left: 159px; width: 198px; height: 38px; background-color: #b4cc00; border-bottom-left-radius: 4px; border-top-left-radius: 4px; justify-content: center; align-items: center; color: white;"  >
-            <font face="sans-serif"><p class="transition">+8 800 555 35 35</p></font>
+            <font style="font-family: Tahoma"><p class="transition">+8 800 555 35 35</p></font>
           </div>
         <div style="background-color: #b4cc00; size: 10px; width: 36px; margin-top: 64px; height: 38px;  border-bottom-right-radius: 4px; border-top-right-radius: 4px;"><img src="https://www.furniture.kg/templates/gk_storebox/images/phone_logo_m.png" style="background-color: #b4cc00; margin-top: 3px; width: 33px; " >
         </div>
@@ -70,6 +74,9 @@
         <img src="https://www.furniture.kg/templates/gk_storebox/images/cart_shadow.png">
          </div>
     </div>
+     <div style="flex-direction: row; justify-content: flex-start; align-items: flex-start; display: inline-flex; margin-left: 80px;">
+         <font size="2" style="font-family: sans-serif"><p class="transition2">Главная</p></font>
+     </div>
  </div>
 </body>
 </html>
